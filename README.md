@@ -4,7 +4,14 @@ esinstall can install Svelte components from npm, but only if the pkg.svelte fie
 
 If the component is imported by an intermediate JavaScript module _and_ includes CSS, esinstall will spin its wheels for a while and eventually run out of memory.
 
+```bash
+npm install
+node install # attempts to install a demo package
 ```
+
+## real world examples
+
+```bash
 # this works, because svelte-scroller exposes a single .svelte file
 node install @sveltejs/svelte-scroller
 
