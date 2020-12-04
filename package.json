@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@sveltejs/pancake": "0.0.17",
+    "@sveltejs/svelte-scroller": "^2.0.6",
+    "esinstall": "^0.4.0",
+    "rollup-plugin-svelte": "^7.0.0",
+    "svelte": "^3.31.0",
+    "tiny-glob": "^0.2.8"
+  }
+}
